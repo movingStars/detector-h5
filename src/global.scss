@@ -3,3 +3,28 @@
   height: 100vh;
   background: #fff;
 }
+
+.common-page {
+  min-height: 100vh;
+  background: linear-gradient(-73deg, #4D8AE9, #3BCCB9);
+  padding: 40px 0;
+  box-sizing: border-box;
+}
+
+.common-container {
+  width: 672px;
+  height: auto;
+  background: #fff;
+  border-radius: 14px;
+  margin: 0 auto;
+}
+
+.common-title {
+  width: 100%;
+  height: 104px;
+  font-size: 42px;
+  color: #3BCCB9;
+  font-weight: bold;
+  text-align: center;
+  line-height: 104px;
+}

@@ -1,0 +1,43 @@
+.take-phote-page {
+  .camera-box {
+    width: 100%;
+    height: 800px;
+    position: relative;
+    background: #323137;
+    video, canvas {
+      width: 100%;
+      height: 100%;
+    }
+    canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+
+  .camera-tips {
+    font-size: 21px;
+    color: #666666;
+    line-height: 36px;
+    padding: 50px 40px;
+    box-sizing: border-box;
+  }
+
+  .operation-btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px 25px;
+    box-sizing: border-box;
+    > div {
+      width: 48%;
+      height: 76px;
+      font-size: 42px;
+      color: #fff;
+      line-height: 76px;
+      text-align: center;
+      border-radius: 4px;
+      background: #4CC499;
+    }
+  }
+}

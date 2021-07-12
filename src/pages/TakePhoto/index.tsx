@@ -69,6 +69,8 @@ const TakePhoto = () => {
           <div>重拍</div>
           <div>确认</div>
         </div>
+
+        <div className="example-video">操作教程</div>
       </div>
     </div>
   );
